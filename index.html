@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    ul {
+      border: 2px solid grey;
+      border-radius: 5px;
+      padding: 1em;
+    }
+    li {
+      display: inline-block;
+      padding: 0.5em;
+    }
+    li:hover {
+        cursor: pointer;
+    }
+    img {
+      height: 100px;
+    }
+    figcaption {
+      text-align: center;
+    }
+    </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src='javascript.js'></script>
+</head>
+  <body>
+    <h1>INFOSYS 280 Assignment #2: Online Supermarket Page</h1>
+
+     <form>
+       <input type="text" id="searchbox" size=40 />
+       <button type="button" id="search">Search</button>
+     </form>
+
+     <h2>Search results</h2>
+     <ul id="searchResults"></ul>
+     <!-- <ul id="searchResults">
+       <li>
+         <img src="https://cdn.jsdelivr.net/gh/josecarlosgt/infosys280/broccoli.jpg" />
+         <figcaption>Brocoli $4</figcaption>
+       </li>
+     </ul> -->
+     <h2>Shopping cart</h2>
+     <ul id="cart"></ul>
+
+    <h2>Total</h2>
+    <span id="total"></span>
+</body>
+</html>
